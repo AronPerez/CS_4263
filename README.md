@@ -1,26 +1,6 @@
 # CS-4263-Project
 CS-4263-001-Spring-2021-Deep Learning
 
-## Shamu
-
-SSH into a login node to get the process started
-
-```bash
-srun --nodes=1 --partition=gpu-v100 --gres=gpu:v100:1 --time=3-00:00:00 --pty
-module load cuda90/toolkit anaconda3
-```
-Once done, create an Anaconda env using the [following](https://hpcsupport.utsa.edu/foswiki/bin/view/Main/PythonVmsInAnaconda)
-If you've successfully done that, activate the environment, use 
-```bash
-git clone https://github.com/AronPerez/CS_4263.git project
-cd project
-git checkout full-cycle-hungry
-conda install --file requirements.txt
-```
-to succesfully install the needed packages to your virtual enviornment.
-From here, you can move into the rest of the setup and get your needed packages together
-
-
 ## Directory structure
 
 ```text
@@ -37,8 +17,8 @@ requirements.txt    --- For python library versions
 
  - Ubuntu 18.04 LTS
  - 32 CPUs
- - 28TB Shared RAM
- - 1 x NVIDIA Tesla V100 GPU
+ - 128GB RAM
+ - 8 x NVIDIA Tesla V100 GPUs
 
  ## Software (python packages are detailed separately in `requirements.txt`):
 
