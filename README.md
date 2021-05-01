@@ -59,4 +59,4 @@ The output should look like the following
 * Loading the train dataset can take anywhere from 15 minutes to 2 hours
 * For best results, please login to Shamu and access a GPU node
 # Continue loading cells
-# You will begin training once you get past ==== INIT MODEL ====
+* You will begin training once you get past ==== INIT MODEL ====
