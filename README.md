@@ -36,6 +36,8 @@ dm = LocalDataManager(None)
 Here you can play with the data and see different views
 # agent_semantic_dataset vs agent_satellite_dataset
 * agent_semantic_dataset allows you to see the raw view
+
 ![semantic data](https://raw.githubusercontent.com/AronPerez/CS_4263/visual/README_images/Plot1.png)
 * agent_satellite_dataset allows you to see satellite image overlay with the prediction points
+
 ![semantic data](https://raw.githubusercontent.com/AronPerez/CS_4263/visual/README_images/Plot4.png)
